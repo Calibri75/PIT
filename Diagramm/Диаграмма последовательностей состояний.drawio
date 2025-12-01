@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 YaBrowser/25.10.0.0 Safari/537.36" version="29.2.1">
   <diagram id="B0ySEOwyHX2JceRfzPp3" name="Страница-1">
-    <mxGraphModel dx="1420" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1325" dy="757" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="FTn9DHbBqY_BWMBnjAF8-0" />
         <mxCell id="FTn9DHbBqY_BWMBnjAF8-1" parent="FTn9DHbBqY_BWMBnjAF8-0" />
@@ -242,9 +242,42 @@
             <mxPoint x="280" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ILE1mrwLEbowW24TWccT-71" connectable="0" parent="ILE1mrwLEbowW24TWccT-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="запрос()" vertex="1">
+        <mxCell id="ILE1mrwLEbowW24TWccT-71" connectable="0" parent="ILE1mrwLEbowW24TWccT-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="запрос(найти столовую)" vertex="1">
           <mxGeometry relative="1" x="0.1194" y="-2" as="geometry">
             <mxPoint x="-10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILE1mrwLEbowW24TWccT-72" edge="1" parent="FTn9DHbBqY_BWMBnjAF8-1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="600" as="sourcePoint" />
+            <mxPoint x="1240" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILE1mrwLEbowW24TWccT-73" connectable="0" parent="ILE1mrwLEbowW24TWccT-72" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Выполнение - поиск столовых" vertex="1">
+          <mxGeometry relative="1" x="-0.0447" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILE1mrwLEbowW24TWccT-76" edge="1" parent="FTn9DHbBqY_BWMBnjAF8-1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1240" y="640" as="sourcePoint" />
+            <mxPoint x="280" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILE1mrwLEbowW24TWccT-77" connectable="0" parent="ILE1mrwLEbowW24TWccT-76" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="вывод(номер столовой, время, график)" vertex="1">
+          <mxGeometry relative="1" x="-0.07" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILE1mrwLEbowW24TWccT-78" edge="1" parent="FTn9DHbBqY_BWMBnjAF8-1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="640" as="sourcePoint" />
+            <mxPoint x="120" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILE1mrwLEbowW24TWccT-79" connectable="0" parent="ILE1mrwLEbowW24TWccT-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Показ(номер столовой, рекуомендуемое время прихода, график загруженности)" vertex="1">
+          <mxGeometry relative="1" x="-0.099" y="-2" as="geometry">
+            <mxPoint y="12" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
