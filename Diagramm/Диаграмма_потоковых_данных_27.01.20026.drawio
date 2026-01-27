@@ -9,13 +9,13 @@
             <mxPoint x="250" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="So6kl4XgEoUfcAXsv6xv-9" connectable="0" parent="So6kl4XgEoUfcAXsv6xv-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запрос на авторизацию" vertex="1">
+        <mxCell id="So6kl4XgEoUfcAXsv6xv-9" connectable="0" parent="So6kl4XgEoUfcAXsv6xv-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запрос&amp;nbsp;&lt;div&gt;на авторизацию&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.04" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="So6kl4XgEoUfcAXsv6xv-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Пользователь" vertex="1">
-          <mxGeometry height="60" width="30" x="90" y="380" as="geometry" />
+          <mxGeometry height="60" width="30" x="140" y="380" as="geometry" />
         </mxCell>
         <mxCell id="So6kl4XgEoUfcAXsv6xv-60" edge="1" parent="1" source="So6kl4XgEoUfcAXsv6xv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="So6kl4XgEoUfcAXsv6xv-10">
           <mxGeometry relative="1" as="geometry">
@@ -25,9 +25,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="So6kl4XgEoUfcAXsv6xv-61" connectable="0" parent="So6kl4XgEoUfcAXsv6xv-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Данные точки питания" vertex="1">
+        <mxCell id="So6kl4XgEoUfcAXsv6xv-61" connectable="0" parent="So6kl4XgEoUfcAXsv6xv-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Данные&amp;nbsp;&lt;div&gt;точки питания&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.4125" y="-2" as="geometry">
-            <mxPoint x="-29" y="2" as="offset" />
+            <mxPoint x="-14" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="So6kl4XgEoUfcAXsv6xv-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Точка питания" vertex="1">
@@ -36,7 +36,7 @@
         <mxCell id="So6kl4XgEoUfcAXsv6xv-37" edge="1" parent="1" source="So6kl4XgEoUfcAXsv6xv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.894;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" target="So6kl4XgEoUfcAXsv6xv-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="369" y="210" />
+              <mxPoint x="369" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -45,24 +45,13 @@
             <mxPoint x="80" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="So6kl4XgEoUfcAXsv6xv-83" edge="1" parent="1" source="So6kl4XgEoUfcAXsv6xv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;" target="So6kl4XgEoUfcAXsv6xv-24">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1070" y="125" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="C2GN7PAXGkwzMQKezJ2G-2" connectable="0" parent="So6kl4XgEoUfcAXsv6xv-83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Пользовательские ограничения" vertex="1">
-          <mxGeometry relative="1" x="-0.1506" y="2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="So6kl4XgEoUfcAXsv6xv-84" edge="1" parent="1" source="So6kl4XgEoUfcAXsv6xv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="So6kl4XgEoUfcAXsv6xv-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="105" y="640" />
-              <mxPoint x="720" y="640" />
+              <mxPoint x="160" y="630" />
+              <mxPoint x="720" y="630" />
             </Array>
+            <mxPoint x="160" y="450" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="So6kl4XgEoUfcAXsv6xv-85" connectable="0" parent="So6kl4XgEoUfcAXsv6xv-84" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Геоданные пользователя" vertex="1">
@@ -71,15 +60,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C2GN7PAXGkwzMQKezJ2G-18" edge="1" parent="1" source="So6kl4XgEoUfcAXsv6xv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="So6kl4XgEoUfcAXsv6xv-25">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="300" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="C2GN7PAXGkwzMQKezJ2G-19" connectable="0" parent="C2GN7PAXGkwzMQKezJ2G-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Пользовательские предпочтения" vertex="1">
           <mxGeometry relative="1" x="-0.5975" y="2" as="geometry">
-            <mxPoint x="18" y="2" as="offset" />
+            <mxPoint x="41" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2GN7PAXGkwzMQKezJ2G-25" edge="1" parent="1" source="So6kl4XgEoUfcAXsv6xv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="So6kl4XgEoUfcAXsv6xv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2GN7PAXGkwzMQKezJ2G-26" connectable="0" parent="C2GN7PAXGkwzMQKezJ2G-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Пользовательские ограничения" vertex="1">
+          <mxGeometry relative="1" x="-0.0631" y="2" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="So6kl4XgEoUfcAXsv6xv-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="БД АВТОРИЗОВАННЫХ ПОЛЬЗОВАТЕЛЕЙ" vertex="1">
-          <mxGeometry height="120" width="120" x="540" y="110" as="geometry" />
+          <mxGeometry height="120" width="120" x="530" y="200" as="geometry" />
         </mxCell>
         <mxCell id="C2GN7PAXGkwzMQKezJ2G-11" edge="1" parent="1" source="So6kl4XgEoUfcAXsv6xv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.145;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;" target="So6kl4XgEoUfcAXsv6xv-27">
           <mxGeometry relative="1" as="geometry">
@@ -219,7 +220,7 @@
         </mxCell>
         <mxCell id="So6kl4XgEoUfcAXsv6xv-55" connectable="0" parent="So6kl4XgEoUfcAXsv6xv-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Пользовательские данные" vertex="1">
           <mxGeometry relative="1" x="0.5678" as="geometry">
-            <mxPoint x="-48" y="-58" as="offset" />
+            <mxPoint x="2" y="-21" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
